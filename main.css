@@ -1176,3 +1176,29 @@ font-weight: 700;
 color: rgb(192, 189, 189);
 font-size: 20px;
 }
+
+/* Bella page */
+.meetSection{
+  padding: 80px 0px;
+}
+.meetLeft img{
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.meetRight h1{
+  color: #1b252b;
+font-size: 50px;
+font-weight: 700;
+}
+.meetRight p{
+  font-weight: 500;
+color: rgb(153, 137, 137);
+font-size: 20px;
+}
+.getTouch a{
+  background: linear-gradient(to right,
+  red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
+}
