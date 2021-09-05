@@ -1181,6 +1181,9 @@ font-size: 20px;
 .meetSection{
   padding: 80px 0px;
 }
+.leftImg img{
+  height: 520px;
+}
 .meetLeft img{
   border-radius: 8px;
   -webkit-border-radius: 8px;
