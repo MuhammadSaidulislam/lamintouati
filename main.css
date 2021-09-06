@@ -229,16 +229,21 @@ margin: 0 auto;
   font-weight: 600;
   color: #555;
 }
+
 .contentSide h1{
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   color: #ed1b24;
-}
-.contentSide p{
-  font-size: 17px;
+  }
+  .contentSide p{
+  font-size: 22px;
   font-weight: 400;
   color: #141313;
-}
+  }
+  .contentSide p i{
+    font-size: 25px;
+    color: #17bcb4;
+  }
 /* card */
 
 
@@ -477,7 +482,7 @@ margin: 0 auto;
 
 /* About page */
 .aboutHeading{
-  padding-top: 15%;
+  padding-top: 2%;
 }
 .aboutHeading h1{
   color: #1b252b;
@@ -495,7 +500,7 @@ margin: 0 auto;
 
 .aboutCardSection .card {
   position: relative;
-  background: #333;
+  background: #ed1b24;
   margin-top: 25px;
   width: 100%;
   height: 600px;
@@ -518,7 +523,7 @@ margin: 0 auto;
   width: 100%;
 }
 .card__title {
-  color: white;
+  color: #fff;
   margin-top: 0;
   font-weight: 800;
   letter-spacing: 0.01em;
@@ -617,8 +622,9 @@ margin: 0 auto;
   margin-left: -50px;
 }
 .right h1 {
-  font-size: 40px;
-  font-weight: lighter;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
 }
 .right p {
   margin: 20px 0;
@@ -841,7 +847,19 @@ background:#fff;
 .serviceSection{
   padding: 80px 0px;
 }
-
+.serviceHeading{
+  padding-top: 12%;
+}
+.serviceHeading h1{
+  color: #1b252b;
+  font-size: 50px;
+  font-weight: 700;
+}
+.serviceHeading p{
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+}
 .serviceSection .card-wrapper {
   display: inline-block;
   vertical-align: top;
@@ -1154,7 +1172,6 @@ background:#fff;
 }
 .serviceBottomSection{
   padding: 80px 0px;
-  margin-bottom: 100px;
   background-color: #ed1b24;
 }
 .serviceBottom{
@@ -1167,7 +1184,7 @@ background:#fff;
   -o-border-radius: 8px;
 }
 .serviceBottom h1{
-  color: #1b252b;
+  color: #fff;
 font-size: 50px;
 font-weight: 700;
 }
@@ -1387,7 +1404,7 @@ text-align: center;
   display: table;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #fff;
   font-weight: 800;
 }
 
