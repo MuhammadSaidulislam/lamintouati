@@ -239,6 +239,7 @@ margin: 0 auto;
   font-size: 22px;
   font-weight: 400;
   color: #141313;
+  padding-left: 65px;
   }
   .contentSide p i{
     font-size: 25px;
@@ -376,6 +377,34 @@ margin: 0 auto;
 /* price table */
 .smallcard{
   padding: 80px 0px;
+}
+.smallcard .cardSub{
+  margin-top: 15px;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  height: 230px;
+  padding: 14px 15px;
+  background-color: #ea5157;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.cardSub:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.smallcard .cardSub p{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
 }
 .price-table {
   display: flex;
@@ -1595,12 +1624,15 @@ text-align: center;
   width: 100%;
 }
 .hometimeline .timeline-title{
-  background-color: red;
+  background-color: #fff;
   padding: 10px;
   text-align: center;
+  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
 }
 .hometimeline .timeline-title h3{
   background-color: #fff;
+  padding: 23px 0px;
+  box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
 }
 .hometimeline .timeline .timeline-item {
   padding-left: 40px;
@@ -1628,6 +1660,7 @@ text-align: center;
   left: 0;
   width: 15px;
   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+  
 }
 .timeline-item .timeline-marker:after {
   content: "";
@@ -1652,6 +1685,7 @@ text-align: center;
   padding-bottom: 40px;
 }
 .hometimeline .timeline-centered .timeline-content .timeline-title:hover {
+  transition: all .3s ease-in-out;
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -1695,8 +1729,9 @@ text-align: center;
     padding: 0;
   }
   .hometimeline .timeline-centered .timeline-item {
-    padding-bottom: 40px;
+  
     overflow: hidden;
+    padding: 40px 20px;
   }
   .hometimeline .timeline-centered .timeline-marker {
     position: absolute;
@@ -1745,3 +1780,21 @@ text-align: center;
   background: #FF6B6B;
 }
 /* home timeline end */
+
+/* responsive */
+@media screen and (max-width: 576px) {
+  .centerPosition{
+    margin-left: 0%;
+    transform: translate(0%,0);
+    -webkit-transform: translate(0%,0);
+    -moz-transform: translate(0%,0);
+    -ms-transform: translate(0%,0);
+    -o-transform: translate(0%,0);
+}
+.contentSide p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #141313;
+  padding-left: 1px;
+  }
+}
