@@ -108,6 +108,7 @@ margin: 0 auto;
     animation: 
       typing 3.5s steps(30, end),
       blink-caret .5s step-end infinite;
+      padding-bottom: 40px;
   }
 
   @keyframes typing {
@@ -222,7 +223,7 @@ margin: 0 auto;
 .partSection{
   margin-top: 100px;
   margin-bottom: 100px;
-  background-color: #fba81a;
+  background-color: #f4f4f4a3;
   padding: 80px 20px;
   border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -234,7 +235,7 @@ margin: 0 auto;
   padding-top: 8%;
 }
 .headingPoint h1{
-  color: #1b252b;
+  color: #ed1b24;
   font-size: 43px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -250,7 +251,8 @@ margin: 0 auto;
 .contentSide h1{
   font-size: 40px;
   font-weight: 700;
-  color: #ed1b24;
+  color: #1b252b;
+  padding-bottom: 30px;
   }
   .contentSide p{
   font-size: 17px;
@@ -260,7 +262,8 @@ margin: 0 auto;
   }
   .contentSide p i{
     font-size: 20px;
-    color: #000000;
+    color: #eccb0b;
+    padding-right: 10px;
   }
 /* card */
 .cardPad{
@@ -725,6 +728,7 @@ margin: 0 auto;
     font-weight: 800;
     animation:       typing 3.5s steps(30, end),      blink-caret .5s step-end infinite;
     -webkit-animation:       typing 3.5s steps(30, end),      blink-caret .5s step-end infinite;
+    padding-bottom: 20px;
 }
 
 .centered p{
@@ -972,7 +976,7 @@ background:#fff;
   color: #666;
   padding: 20px 30px;
   box-sizing: border-box;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 7px 3px 11px 0px rgb(217, 214, 214);
   transition: all .3s ease-in-out;
 }
 .serviceSection .card-wrapper .card:hover{
