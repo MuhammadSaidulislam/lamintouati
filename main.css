@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face { font-family: gotham;  
+  src: url('./Gotham-Font/GothamLight.ttf'); } 
+  @font-face { font-family: gothamH1;  
+    src: url('./Gotham-Font/GothamBold.ttf'); } 
+/* h2{
+font-family: gotham;
+} */
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3,h4,h5,h6,p,span{
-  font-family: 'Bitter', serif !important;
+h1{
+  font-family: gothamH1 !important; 
+}
+h2,h3,h4,h5,h6,p,span{
+  font-family: gotham !important; 
 }
 nav{
     background-color: #0f0c0c;
@@ -98,7 +108,7 @@ nav{
 margin: 0 auto;
 }
 .typewriter h1 {
-    color: rgb(209, 206, 208);
+    color: #BB0000;
     font-family: monospace;
     overflow: hidden; 
     border-right: .15em solid orange;
@@ -124,9 +134,12 @@ margin: 0 auto;
   .headingImg {
     position: relative;
     text-align: center;
-    color: white;
+    color: #BB0000;
     width: 100%;
     height: 100vh;
+  }
+  .typewriterP{
+    font-weight: 600;
   }
   .headingImg img{
     width: 100%;
@@ -231,6 +244,7 @@ margin: 0 auto;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .headingPoint{
   padding-top: 8%;
@@ -274,6 +288,16 @@ margin: 0 auto;
   text-align: center;
   font-size: 80px;
   padding-bottom: 16px;
+  color: #fff;
+}
+.shortCard h2 i{
+ background-color: #ed1b24;
+ padding: 12px 10px;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
 }
 .shortCard h1{
   color: #1b252b;
@@ -403,7 +427,7 @@ text-align: center;
   text-align: center;
   text-decoration: none;
   padding: 10px 15px;
-  background-color: #ea5157;
+  background-color: #BB0000;
   color: #fff;
 }
 .about{
@@ -416,7 +440,7 @@ text-align: center;
   -o-border-radius: 8px;
 }
 .about h1{
-  color: #1b252b;
+  color: #eccb0b;;
   font-size: 50px;
   font-weight: 700;
 }
@@ -521,7 +545,7 @@ text-align: center;
   -o-border-radius: 8px;
 }
 .agent h1{
-  color: #1b252b;
+  color: #eccb0b;;
   font-size: 50px;
   font-weight: 700;
 }
@@ -540,7 +564,7 @@ text-align: center;
 }
 .aboutImg img{
   width: 100%;
-  height: 420px;
+  height: 490px;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -566,7 +590,7 @@ text-align: center;
   background: #ed1b24;
   margin-top: 25px;
   width: 100%;
-  height: 600px;
+  height: 630px;
   border-radius: 6px;
   padding: 2rem;
   color: #aaa;
@@ -1204,7 +1228,7 @@ font-size: 20px;
   padding: 80px 0px;
 }
 .leftImg img{
-  height: 520px;
+  height: 580px;
 }
 .meetLeft img{
   border-radius: 8px;
@@ -1401,7 +1425,7 @@ font-weight: 500;
 }
 .contactBox{
   width: 100%;
-  height: 240px;
+  height: 280px;
   background-color: #fba81a;
   margin-top: 20px;
   border-radius: 8px;
@@ -1409,7 +1433,7 @@ font-weight: 500;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
-  padding: 8px 5px;
+  padding: 26px 5px;
   text-align: center;
   transition: all .3s ease-in-out;
 }
