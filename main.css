@@ -295,17 +295,39 @@ margin: 0 auto;
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
 }
-.shortCard{
+
+.shortCard h2{
+  text-align: center;
+  font-size: 80px;
+  padding-bottom: 16px;
+  color: #fff;
+}
+.shortCard h2 i{
+ background-color: #ed1b24;
+ padding: 12px 10px;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
+}
+.shortCard h1{
+  color: #1b252b;
+font-size: 21px;
+font-weight: 700;
+padding-bottom: 12px;
+text-align: center;
+}
+.shortCard p{
+  text-align: center;
+}
+.shortCard img{
+  width: 100px;
+  height: 100px;
   text-align: center;
   margin-bottom: 25px;
 }
-.shortCard:hover img{
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
+
 .shortCard h2{
   text-align: center;
   font-size: 80px;
